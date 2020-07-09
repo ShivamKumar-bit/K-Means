@@ -103,6 +103,7 @@ plt.xlabel('K')## ploting in graph
 plt.ylabel('Sum of squared error')
 plt.plot(k_rng,sse)
 ```
+<br>
 
 ![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/download%20(2).png)
 
