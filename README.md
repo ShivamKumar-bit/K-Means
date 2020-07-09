@@ -107,7 +107,8 @@ plt.plot(k_rng,sse)
 ![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/download%20(2).png)
 
 So you can infer the value of appropriate K.
-    
+
+That's all Thank You!
 
  
 
