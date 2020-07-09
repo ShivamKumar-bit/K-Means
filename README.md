@@ -42,7 +42,7 @@ Let's say we want to form two clusters (will discuss about this assumption later
 ### Step-1
 Now we will join these two points (let's call it centroids for now) by a line and draw a perpendicular at mid-point of this line . This perpendicular lines divides the data points into 2 sets.
 
-![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/Image3.png)
+![](Image3.png)
 
 ### Step-2
 Now based on red data points mean value we will place the centroid and similar thing happens with green data point and its centroid. And we will repeat both steps
