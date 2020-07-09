@@ -90,7 +90,7 @@ plt.scatter(df2['petal length (cm)'],df2['petal width (cm)'],color='green')
 plt.scatter(df3['petal length (cm)'],df3['petal width (cm)'],color='yellow')
 ```
 
-![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/download (1).png)
+![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/download%20(1).png)
 
 ```ruby
 sse = [] ## Sum of squared error
