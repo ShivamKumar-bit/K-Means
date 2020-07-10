@@ -34,7 +34,7 @@ We will scatter these two features on a scatter plot
 ```ruby
 plt.scatter(df['petal length (cm)'],df['petal width (cm)'])
 ```
-![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/download.png)
+![Image](https://raw.githubusercontent.com/ShivamKumar-bit/K-Means/master/download.png)
 
 Now what we do is try to encircle the clusters of similar data points on our graph . To do that we need to find the centroid of each clusters.
 ## How to find centroids of each cluster?
