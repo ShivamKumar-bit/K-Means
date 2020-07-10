@@ -34,7 +34,7 @@ We will scatter these two features on a scatter plot
 ```ruby
 plt.scatter(df['petal length (cm)'],df['petal width (cm)'])
 ```
-![Image](https://raw.githubusercontent.com/ShivamKumar-bit/K-Means/master/download.png)
+![download](https://user-images.githubusercontent.com/67604006/87127305-59cc9f80-c2ab-11ea-8392-24ca916e6df5.png)
 
 Now what we do is try to encircle the clusters of similar data points on our graph . To do that we need to find the centroid of each clusters.
 ## How to find centroids of each cluster?
@@ -42,26 +42,27 @@ Let's say we want to form two clusters (will discuss about this assumption later
 ### Step-1
 Now we will join these two points (let's call it centroids for now) by a line and draw a perpendicular at mid-point of this line . This perpendicular lines divides the data points into 2 sets.
 
-![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/Image3.png)
+![Image3](https://user-images.githubusercontent.com/67604006/87127317-5df8bd00-c2ab-11ea-8bb1-fd2ea693b580.png)
 
 ### Step-2
 Now based on red data points mean value we will place the centroid and similar thing happens with green data point and its centroid. And we will repeat both steps
 until there is no point movement.
 
-![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/q1.png)
+![Image](https://user-images.githubusercontent.com/67604006/87127322-5f29ea00-c2ab-11ea-9386-77506a3f2b6a.png)
+
 
 ## How to find correct number of clusters K ?
  There is something called SSE i.e Sum of Squared Errors.
  The formula is :- <br>
  
- ![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/formula.png)
+![formula](https://user-images.githubusercontent.com/67604006/87127311-5cc79000-c2ab-11ea-84a6-362b04e76252.png)
  
  Here x refers to data points and c1 to centroid, SSE1 is the squared error of 1 cluster.
  Similarly we will have SSE2 for 2nd cluster ,SSE3,SSE4.... so on.
  We find the total sum of these squared errors SSE = SSE1 + SSE2 ....
  <br>
  
- ![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/elbow.png)
+ ![Image](https://user-images.githubusercontent.com/67604006/87127309-5afdcc80-c2ab-11ea-8f2c-7f621037febf.png)
  
  As you increase the clusters there will be decrease in error . You can relate the above diagram as your arm and choose the point where there is
  sudden abrupt change let's say
@@ -90,7 +91,7 @@ plt.scatter(df2['petal length (cm)'],df2['petal width (cm)'],color='green')
 plt.scatter(df3['petal length (cm)'],df3['petal width (cm)'],color='yellow')
 ```
 
-![download (1)](https://user-images.githubusercontent.com/67604006/87127293-55a08200-c2ab-11ea-92d7-04705aa8d1ca.png)
+![Image](https://user-images.githubusercontent.com/67604006/87127293-55a08200-c2ab-11ea-92d7-04705aa8d1ca.png)
 
 ```ruby
 sse = [] ## Sum of squared error
@@ -105,7 +106,7 @@ plt.plot(k_rng,sse)
 ```
 <br>
 
-![Image](https://github.com/ShivamKumar-bit/K-Means/blob/master/download%20(2).png)
+![Image](https://user-images.githubusercontent.com/67604006/87127300-5802dc00-c2ab-11ea-93db-3ca6b3a43d44.png)
 
 So you can infer the value of appropriate K.
 
